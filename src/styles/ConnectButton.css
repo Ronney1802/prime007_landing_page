@@ -1,0 +1,36 @@
+.connect-btn {
+  width: 250px;
+  height: 58px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8px 0 18px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 12px 24px rgba(17, 24, 39, 0.12);
+}
+
+.btn-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: clamp(0.9rem, 1vw, 1rem);
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.btn-arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  flex-shrink: 0;
+}
+
+.connect-btn:hover {
+  transform: translateY(-1px);
+}

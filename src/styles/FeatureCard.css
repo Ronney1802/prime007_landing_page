@@ -1,0 +1,33 @@
+.feature-item img {
+  height: 58px;
+  width: auto;
+  margin-bottom: 6px;
+  object-fit: contain;
+}
+
+.feature-title {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.feature-sub {
+  font-size: 12px;
+  font-weight: 400;
+  color: #6d6d6d;
+}
+
+@media (max-width: 768px) {
+  .feature-item img {
+    height: 44px;
+    margin-bottom: 6px;
+  }
+
+  .feature-title {
+    font-size: 12px;
+  }
+
+  .feature-sub {
+    font-size: 11px;
+  }
+}

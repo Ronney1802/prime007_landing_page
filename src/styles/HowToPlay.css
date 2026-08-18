@@ -1,0 +1,19 @@
+.how-to-play_grid {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 50px 50px;
+  border-radius: 20px;
+}
+
+@media (max-width: 480px) {
+  .how-to-play_grid {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .how-to-play_grid {
+    flex-direction: column;
+  }
+}

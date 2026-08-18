@@ -1,0 +1,37 @@
+.how-to-play {
+  text-align: center;
+  /* Use flex to center children */
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center; /* vertical center */
+  gap: 20px;
+}
+
+.how-to-play i {
+  color: var(--green);
+  font-size: 20px;
+  /* filter: var(--icon-glow); */
+  margin: 15px 0;
+}
+
+@media (max-width: 767px) {
+  .step-card {
+    padding: 20px;
+  }
+
+  .step-number {
+    font-size: 1.5rem;
+  }
+
+  .step-icon i {
+    font-size: 1.6rem;
+  }
+
+  .step-card h4 {
+    font-size: 1.1rem;
+  }
+
+  .step-card p {
+    font-size: 0.9rem;
+  }
+}

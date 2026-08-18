@@ -1,0 +1,33 @@
+.footer {
+  background: var(--bs-gray-dark);
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.footer_button_container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center; /* center buttons vertically */
+  position: relative;
+  top: 80px;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+.social-links a {
+  color: var(--brand-accent);
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  text-decoration: none;
+  color: var(--text-light);
+}
+
+.footer .col-12 {
+  padding-top: 50px;
+}

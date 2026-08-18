@@ -24,6 +24,20 @@ h2.section-title {
   font-size: 0.9rem;
   margin-bottom: 20px;
 }
+
+.logo_container {
+  position: relative;
+  width: fit-content; /* adapts to logo size */
+  margin: 0 auto; /* centers it */
+  top: 100px;
+}
+
+.logo_container img {
+  height: 200px;
+  width: auto;
+  object-fit: contain;
+}
+
 @media (max-width: 480px) {
   .section-title {
     font-size: 1.22rem;

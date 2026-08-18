@@ -1,0 +1,144 @@
+.rates-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px 26px;
+}
+
+.rate-card {
+  background: linear-gradient(90deg, #1f9d62 0%, #2eaf72 100%);
+  border: 1px solid rgba(31, 145, 92, 0.7);
+  border-radius: 999px;
+  padding: 10px 16px 10px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.2s;
+  box-shadow: 0 6px 14px rgba(40, 166, 107, 0.25);
+  position: relative;
+  overflow: hidden;
+}
+
+.rate-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.42) 0%,
+    rgba(255, 255, 255, 0.18) 36%,
+    rgba(255, 255, 255, 0) 68%
+  );
+  pointer-events: none;
+}
+
+.rate-card:hover {
+  transform: translateY(-1px);
+}
+
+.rate-left {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  gap: 8px;
+  position: relative;
+  z-index: 1;
+}
+
+.rate-ico {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: yellow;
+  filter: var(--icon-glow);
+  flex-shrink: 0;
+}
+
+.rate-name {
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: #fff;
+  white-space: nowrap;
+  line-height: 1.1;
+}
+
+.rate-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  position: relative;
+  z-index: 1;
+}
+
+.rate-ka {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.86);
+  white-space: nowrap;
+}
+
+.rate-amt {
+  font-weight: 800;
+  font-size: 1.06rem;
+  color: #fff;
+  white-space: nowrap;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .rates-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .rate-card {
+    padding: 8px 10px;
+  }
+
+  .rate-ico {
+    width: 22px;
+    height: 22px;
+    font-size: 0.63rem;
+  }
+
+  .rate-name {
+    font-size: 0.78rem;
+  }
+
+  .rate-right {
+    gap: 9px;
+  }
+
+  .rate-ka,
+  .rate-amt {
+    font-size: 0.78rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .rates-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .rate-card {
+    padding: 9px 12px 9px 10px;
+  }
+
+  .rate-name {
+    font-size: 0.86rem;
+  }
+
+  .rate-ka {
+    font-size: 0.78rem;
+  }
+
+  .rate-amt {
+    font-size: 0.92rem;
+  }
+}

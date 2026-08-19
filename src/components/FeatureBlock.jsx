@@ -5,10 +5,16 @@ import fastWithdrawalIcon from "../assets/images/fast-withdrawal.png";
 import secureIcon from "../assets/images/secure.png";
 import supportIcon from "../assets/images/support.png";
 import SVGConnector from "./SVGConnector";
+import { BRAND_NAME } from "../constants";
 
 const FeatureBlock = () => {
   return (
     <div className="container feature-block">
+      <div className="feature-header">
+        <h2 className="section-title">Premium Features</h2>
+        <div className="green-line"></div>
+        <p className="section-sub">Experience the excellence of {BRAND_NAME}</p>
+      </div>
       <div className="row g-3 text-center align-items-center justify-content-around feature-row">
         <div className="col-6 col-md-auto">
           <FeatureCard

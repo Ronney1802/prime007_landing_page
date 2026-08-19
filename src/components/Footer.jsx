@@ -7,8 +7,8 @@ function Footer() {
     <footer className="footer py-4">
       <div className="footer_button_container">
         <ConnectButton
-          // href="downloads/sikka999-1.0.2-1.apk"
-          download
+          // href={APK_DOWNLOAD_URL}
+          // download
           label="Download App"
           icon="fas fa-download"
           bgColor="var(--green-brand)"
@@ -47,15 +47,7 @@ function Footer() {
 
       <div className="container">
         <div className="row align-items-center mt-5">
-          {/* Left Side - Copyright */}
-
-          {/* Bootstrao utility classes are explained in the README.md file go and read the details whats happening
-          in these left and right div classes under ks-online section */}
-          {/* <div className="col-12 col-md-6 text-center text-md-start order-2 order-md-1">
-          -> Right now to have this copyright into right side of the site we changed the grid column into col-md-12,
-           you can change it back to col-md-6*/}
-
-          <div className="col-12 col-md-12 text-center text-md-center">
+          <div className="col-12 col-md-12 text-center text-md-end order-1 order-md-2">
             <div>
               <p className="mb-0">
                 &copy;2026 {BRAND_NAME}. All rights reserved.

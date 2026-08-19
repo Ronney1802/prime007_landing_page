@@ -1,6 +1,6 @@
-import { BRAND_NAME } from "../constants";
 import "../styles/AppSection.css";
-// import appImage from "../assets/images/app-download-1.png";
+import { BRAND_NAME } from "../constants";
+import appImage from "../assets/images/mobile-screen.png";
 
 const AppSection = () => {
   return (
@@ -18,7 +18,8 @@ const AppSection = () => {
             </p>
             <a
               className="btn-dl-big"
-              //   href="/downloads/sikka999-1.0.2-1.apk"
+              // href={APK_DOWNLOAD_URL}
+              // download
               aria-label={`Download ${BRAND_NAME} App`}
             >
               <i className="fas fa-download"></i> Get {BRAND_NAME} App
@@ -30,7 +31,7 @@ const AppSection = () => {
             <div className="app-phone-wrap">
               <div className="app-ring"></div>
               <img
-                // src={appImage}
+                src={appImage}
                 alt={`${BRAND_NAME} matka app on mobile phone`}
                 className="app-phone-img"
               />

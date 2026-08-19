@@ -6,8 +6,8 @@ const DownloadButton = () => {
     <div className="hero-cta-wrap">
       <a
         className="download-btn"
-        // href="/downloads/prime007.apk"
-        // download
+        // href={APK_DOWNLOAD_URL}
+        download
       >
         <span className="download-btn-shine" aria-hidden="true"></span>
         <span className="download-btn-icon" aria-hidden="true">

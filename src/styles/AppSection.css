@@ -96,6 +96,12 @@
   margin-left: auto;
   margin-right: 32px;
 }
+.app-phone-wrap img {
+  height: 450px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
 .app-ring {
   position: absolute;
   width: 520px;
@@ -250,6 +256,47 @@
   .app-section::after {
     bottom: -120px;
     height: 170px;
+  }
+
+  .app-section {
+    padding: 54px 22px;
+  }
+  .app-section::before {
+    top: -130px;
+    height: 170px;
+  }
+  .app-section::after {
+    bottom: -120px;
+    height: 170px;
+  }
+  .app-copy .app-download-title {
+    font-size: 1.8rem;
+    text-align: center !important;
+  }
+  .app-copy p {
+    font-size: 0.88rem;
+    text-align: center !important;
+    margin: 0 auto 20px;
+  }
+  .btn-dl-big {
+    min-width: 340px;
+    font-size: 0.92rem;
+    padding: 10px 24px;
+  }
+  .app-phone-wrap {
+    margin: 0 auto;
+  }
+  .app-ring {
+    width: 390px;
+    height: 390px;
+    right: 50%;
+    transform: translate(50%, -50%);
+  }
+  .phone-mock {
+    width: 230px;
+  }
+  .phone-body {
+    min-height: 430px;
   }
 }
 

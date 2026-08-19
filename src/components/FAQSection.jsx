@@ -5,7 +5,7 @@ import FAQBox from "./FAQBox";
 const faqs = [
   {
     question: `How do I download the ${BRAND_NAME} app?`,
-    answer: `Visit the official ${BRAND_NAME} website and click Download Now. Supports Android and iOS, installs in minutes.`,
+    answer: `Visit the official ${BRAND_NAME} website and click Download Now. Supports Android, installs in minutes.`,
   },
   {
     question: `How do I deposit money into my account?`,
@@ -46,7 +46,8 @@ const FAQSection = () => {
               </p>
               <a
                 className="faq-dl-btn"
-                //   href="/downloads/sikka999-1.0.2-1.apk"
+                // href={APK_DOWNLOAD_URL}
+                // download
               >
                 Download App{" "}
                 <span>

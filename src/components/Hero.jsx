@@ -1,6 +1,6 @@
 import "../styles/Hero.css";
-// import prime007BannerImg from "../assets/images/prime007-banner-new.png";
-import prime007BannerImg from "../assets/images/prime007-banner.png";
+import prime007BannerImg from "../assets/images/prime007-banner-new.png";
+// import prime007BannerImg from "../assets/images/prime007-banner.png";
 import girlImg from "../assets/images/hero-girl(1).png";
 import DownloadButton from "./DownloadButton";
 import { BRAND_NAME } from "../constants";

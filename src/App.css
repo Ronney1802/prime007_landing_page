@@ -30,28 +30,9 @@ h2.section-title {
   background-color: var(--gray-bg);
 }
 
-.logo_container {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  width: fit-content; /* adapts to logo size */
-  bottom: 330px; /* preserves current visual offset */
-  z-index: 1040;
-}
-
-.logo_container img {
-  height: 200px;
-  width: auto;
-  object-fit: contain;
-  display: block;
-}
-
 @media (max-width: 480px) {
   .section-title {
     font-size: 1.22rem;
-  }
-  .logo_container {
-    bottom: 340px;
   }
 }
 @media (max-width: 991px) {
@@ -62,4 +43,20 @@ h2.section-title {
   .section-title {
     font-size: 1.4rem;
   }
+}
+
+/* .logo_container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: fit-content;  adapts to logo size 
+  bottom: 330px; preserves current visual offset
+  z-index: 1040;
+} */
+
+.logo_container img {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+  display: block;
 }

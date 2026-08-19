@@ -55,7 +55,7 @@ function Footer() {
           -> Right now to have this copyright into right side of the site we changed the grid column into col-md-12,
            you can change it back to col-md-6*/}
 
-          <div className="col-12 col-md-12 text-center text-md-end order-1 order-md-2">
+          <div className="col-12 col-md-12 text-center text-md-center">
             <div>
               <p className="mb-0">
                 &copy;2026 {BRAND_NAME}. All rights reserved.

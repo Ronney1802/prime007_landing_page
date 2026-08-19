@@ -14,21 +14,18 @@ const HowToPlay = () => {
         <div className="how-to-play_grid">
           <HowToPlayCard
             icon="fas fa-download"
-            number="01"
             step="Download App"
             description="Download our premium app from the website"
           />
           <SVGConnector />
           <HowToPlayCard
             icon="fas fa-user-plus"
-            number="02"
             step="Create Account"
             description="Register with your details securely"
           />
           <SVGConnector />
           <HowToPlayCard
             icon="fas fa-play-circle"
-            number="03"
             step="Start Playing"
             description="Choose your game and start winning"
           />

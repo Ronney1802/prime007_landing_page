@@ -50,6 +50,9 @@ h2.section-title {
   .section-title {
     font-size: 1.22rem;
   }
+  .logo_container {
+    bottom: 340px;
+  }
 }
 @media (max-width: 991px) {
   section {

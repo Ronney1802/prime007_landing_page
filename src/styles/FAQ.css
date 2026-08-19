@@ -92,8 +92,6 @@
 .faq-ico {
   font-size: 15px;
   transition: transform 0.3s;
-  flex-shrink: 0;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
 }
@@ -126,8 +124,7 @@
 
 .faq-item.active .faq-ico {
   transform: rotate(180deg);
-  background: #e7f8ed;
-  color: #2ca566;
+  color: yellow;
 }
 
 .faq-item.active .faq-ans.open {

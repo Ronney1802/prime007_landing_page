@@ -80,7 +80,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: var(--gray-500);
+  color: var(--green-deep);
   transition: all 0.2s;
   line-height: 1.3;
 }

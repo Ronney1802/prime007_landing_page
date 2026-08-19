@@ -9,7 +9,7 @@
 
 .how-to-play i {
   color: var(--green);
-  font-size: 20px;
+  font-size: 25px;
   /* filter: var(--icon-glow); */
   margin: 15px 0;
 }

@@ -3,7 +3,6 @@
   padding: 34px 0 130px 0;
 }
 
-/* Left Side (Heading + Download Button) */
 .faq-left {
   padding: 12px 6px;
 }
@@ -51,6 +50,7 @@
   min-width: 150px;
   justify-content: space-between;
   box-shadow: 0 8px 14px rgba(18, 89, 52, 0.2);
+  cursor: pointer;
 }
 
 .faq-dl-btn span {
@@ -64,7 +64,6 @@
   justify-content: center;
 }
 
-/* FAQ Items */
 .faq-item {
   background: #eceff1;
   border: 1px solid #e0e5e9;

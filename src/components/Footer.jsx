@@ -7,7 +7,7 @@ function Footer() {
     <footer className="footer py-4">
       <div className="footer_button_container">
         <ConnectButton
-          //   href="downloads/sikka999-1.0.2-1.apk"
+          // href="downloads/sikka999-1.0.2-1.apk"
           download
           label="Download App"
           icon="fas fa-download"

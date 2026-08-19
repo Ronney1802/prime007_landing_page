@@ -11,27 +11,36 @@ function Footer() {
           download
           label="Download App"
           icon="fas fa-download"
-          borderColor="#D4AF37"
-          textColor="#D4AF37"
+          bgColor="var(--green-brand)"
+          borderColor="var(--green-deep)"
+          textColor="var(--white)"
+          // arrowBg="var(--white-soft)"
+          // arrowColor="var(--green-brand)"
         />
 
         <ConnectButton
           href="tel:put-your-number"
           label="Call Now"
           icon="fas fa-phone-alt"
-          borderColor="#D4AF37"
-          textColor="#D4AF37"
+          bgColor="var(--green-soft)"
+          borderColor="var(--green-border-soft)"
+          textColor="var(--green-deep)"
+          // arrowBg="var(--green-brand)"
+          // arrowColor="var(--white)"
         />
 
         <ConnectButton
           href="https://wa.me/put-your-number"
           label="Whatsapp"
           icon="fab fa-whatsapp"
-          borderColor="#D4AF37"
-          textColor="#D4AF37"
+          bgColor="var(--white-off)"
+          borderColor="var(--green-border-soft)"
+          textColor="var(--green-brand)"
+          // arrowBg="var(--green-brand)"
+          // arrowColor="var(--white)"
         />
 
-        <p style={{ color: "#D4AF37" }}>
+        <p style={{ color: "var(--green-pale)" }}>
           This app is for users 18 years and older only. Play responsibly.
         </p>
       </div>

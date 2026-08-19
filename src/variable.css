@@ -3,22 +3,100 @@
    =========================== */
 
 :root {
+  /* Base palette */
   --green: #28a745;
-  --green-dark: #1e7e34;
+  --green-brand: #28a66b;
+  --green-strong: #2ca566;
+  --green-deep: #1f8f59;
   --green-light: #34ce57;
+  --green-soft: #e9f8ee;
+  --green-pale: #dff4e8;
+  --green-card: #f6fbf8;
+  --green-border: #d7e8dd;
+  --green-border-soft: #d6e8de;
+  --green-border-faint: #d9e9e0;
+  --green-panel: #1cab6b;
+  --green-mint: #57c98c;
   --green-bg: #f0fdf4;
-  --green-pale: #e8f5e9;
+
   --white: #ffffff;
+  --white-soft: #f5f8f6;
+  --white-off: #f7f8f9;
+  --white-90: rgba(255, 255, 255, 0.88);
+
   --gray-bg: #f4f6f8;
-  --border: #dee2e6;
-  --border-green: #c3e6cb;
+  --gray-700: #3b3f43;
+  --gray-600: #777f87;
+  --gray-500: #3f474f;
+  --gray-400: #717a83;
+  --gray-250: #7b8590;
+  --gray-100: #e5eaef;
+  --gray-150: #e0e5e9;
+
   --text-dark: #212529;
   --text-mid: #495057;
   --text-muted: #6c757d;
-  --red: #dc3545;
-  --orange: #fd7e14;
-  --gold: #ffc107;
-  --bs-gray-dark: #343a40;
+  --dark-panel: #0b1720;
+  --dark-panel-2: #2f3f4b;
+  --dark-panel-3: #060c11;
+
+  --yellow-highlight: #ffef31;
+  --gold-brand: #d4af37;
+  --whatsapp: #25d366;
+  --whatsapp-dark: #1ebe57;
+  --brand-accent: var(--gold-brand);
+  --text-light: var(--white);
+
+  /* Shared shadows */
+  --shadow-black-16: rgba(0, 0, 0, 0.16);
+  --shadow-black-12: rgba(0, 0, 0, 0.12);
+  --shadow-black-5: rgba(0, 0, 0, 0.05);
+  --shadow-slate-08: rgba(15, 23, 42, 0.08);
+  --shadow-slate-06: rgba(15, 23, 42, 0.06);
+  --shadow-slate-12: rgba(17, 24, 39, 0.12);
+  --shadow-slate-25: rgba(17, 24, 39, 0.25);
+  --shadow-brand-20: rgba(18, 89, 52, 0.2);
+  --shadow-green-18: rgba(37, 211, 102, 0.18);
+  --shadow-green-25: rgba(40, 166, 107, 0.25);
+  --shadow-green-32: rgba(40, 166, 107, 0.32);
+  --shadow-green-35: rgba(40, 166, 107, 0.35);
+  --shadow-green-40: rgba(40, 166, 107, 0.4);
+  --shadow-green-42: rgba(40, 166, 107, 0.42);
+  --shadow-green-48: rgba(40, 166, 107, 0.48);
+  --shadow-green-50: rgba(40, 166, 107, 0.5);
+  --shadow-green-0: rgba(40, 166, 107, 0);
+  --shadow-green-pulse: rgba(40, 166, 107, 0.35);
+  --shadow-white-35: rgba(255, 255, 255, 0.35);
+  --shadow-white-40: rgba(255, 255, 255, 0.4);
+  --shadow-deep-green: #187a4c;
+  --dark-shadow: rgba(5, 21, 65, 0.42);
+
+  --shadow-sm: 0 4px 10px var(--shadow-black-12);
+  --shadow-soft-panel: 0 10px 24px var(--shadow-slate-06);
+  --shadow-card: 0 10px 28px var(--shadow-slate-08);
+  --shadow-card-lift: 0 12px 24px var(--shadow-slate-12);
+  --shadow-float: 0 8px 18px var(--shadow-slate-25);
+  --shadow-green-soft: 0 4px 12px var(--shadow-green-18);
+  --shadow-green-medium: 0 6px 14px var(--shadow-green-25);
+  --shadow-green-action: 0 8px 18px var(--shadow-green-32);
+  --shadow-green-action-strong: 0 10px 22px var(--shadow-green-40);
+  --shadow-brand: 0 8px 14px var(--shadow-brand-20);
+  --shadow-button-primary:
+    0 14px 32px var(--shadow-green-42), 0 4px 0 var(--shadow-deep-green),
+    inset 0 1px 0 var(--shadow-white-35);
+  --shadow-button-primary-hover:
+    0 18px 36px var(--shadow-green-50), 0 5px 0 var(--shadow-deep-green),
+    inset 0 1px 0 var(--shadow-white-40);
+  --shadow-button-primary-active:
+    0 8px 18px var(--shadow-green-35), 0 2px 0 var(--shadow-deep-green),
+    inset 0 1px 0 var(--shadow-white-35);
+  --shadow-button-pulse:
+    0 14px 32px var(--shadow-green-42), 0 4px 0 var(--shadow-deep-green),
+    inset 0 1px 0 var(--shadow-white-35), 0 0 0 0 var(--shadow-green-pulse);
+  --shadow-button-pulse-strong:
+    0 16px 34px var(--shadow-green-48), 0 4px 0 var(--shadow-deep-green),
+    inset 0 1px 0 var(--shadow-white-35), 0 0 0 12px var(--shadow-green-0);
+  --shadow-cta-soft: 0 8px 22px rgba(15, 23, 42, 0.07);
 
   --icon-glow: drop-shadow(0 0 8px rgba(255, 180, 50, 0.7))
     drop-shadow(0 0 18px rgba(255, 140, 0, 0.5))

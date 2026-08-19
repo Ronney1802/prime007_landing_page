@@ -28,7 +28,7 @@
   font-weight: 700;
   font-size: 0.75rem;
   gap: 6px;
-  box-shadow: 0 8px 18px rgba(17, 24, 39, 0.25);
+  box-shadow: var(--shadow-float);
   transition: all 0.2s ease;
 }
 

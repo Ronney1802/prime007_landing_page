@@ -6,7 +6,7 @@
   border: 1px solid #e8edf1;
   border-radius: 20px;
   padding: 26px 34px 30px;
-  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+  box-shadow: var(--shadow-soft-panel);
   position: relative;
   overflow: hidden;
 }

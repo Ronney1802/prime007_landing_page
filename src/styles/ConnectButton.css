@@ -8,7 +8,7 @@
   padding: 0 8px 0 18px;
   text-decoration: none;
   transition: all 0.2s ease;
-  box-shadow: 0 12px 24px rgba(17, 24, 39, 0.12);
+  box-shadow: var(--shadow-card-lift);
 }
 
 .btn-label {

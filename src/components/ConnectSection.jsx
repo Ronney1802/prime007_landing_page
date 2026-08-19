@@ -24,22 +24,22 @@ const ConnectSection = () => {
               href="tel:put-your-number"
               label="Call Now"
               icon="fas fa-phone-alt"
-              bgColor="#28A66B"
-              borderColor="#23935f"
-              textColor="#fff"
-              arrowBg="#f5f8f6"
-              arrowColor="#28A66B"
+              bgColor="var(--green-brand)"
+              borderColor="var(--green-deep)"
+              textColor="var(--white)"
+              arrowBg="var(--white-soft)"
+              arrowColor="var(--green-brand)"
             />
 
             <ConnectButton
               href="https://wa.me/put-your-number"
               label="Whatsapp"
               icon="fab fa-whatsapp"
-              bgColor="#f7f8f9"
-              borderColor="#a4d9bf"
-              textColor="#28A66B"
-              arrowBg="#28A66B"
-              arrowColor="#fff"
+              bgColor="var(--white-off)"
+              borderColor="var(--green-border-soft)"
+              textColor="var(--green-brand)"
+              arrowBg="var(--green-brand)"
+              arrowColor="var(--white)"
             />
           </div>
         </div>

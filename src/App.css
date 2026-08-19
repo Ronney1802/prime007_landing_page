@@ -25,17 +25,25 @@ h2.section-title {
   margin-bottom: 20px;
 }
 
-.logo_container {
+.app-root {
   position: relative;
+  background-color: var(--gray-bg);
+}
+
+.logo_container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   width: fit-content; /* adapts to logo size */
-  margin: 0 auto; /* centers it */
-  top: 100px;
+  bottom: 330px; /* preserves current visual offset */
+  z-index: 1040;
 }
 
 .logo_container img {
   height: 200px;
   width: auto;
   object-fit: contain;
+  display: block;
 }
 
 @media (max-width: 480px) {

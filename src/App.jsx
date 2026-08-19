@@ -9,18 +9,18 @@ import Hero from "./components/Hero";
 import WhatsAppChannel from "./components/WhatsAppChannel";
 import prime007Logo from "./assets/images/prime007-logo(1).png";
 import { BRAND_NAME } from "./constants";
-import MarketList from "./components/HowToPlay";
+import HowToPlay from "./components/HowToPlay";
 
 function App() {
   return (
-    <div style={{ backgroundColor: "var(--gray-bg)" }}>
+    <div className="app-root">
       <Hero />
       <WhatsAppChannel />
       <FeatureBlock />
       <ConnectSection />
       <GameRates />
+      <HowToPlay />
       <AppSection />
-      <MarketList />
       <FAQSection />
       {/* <FloatDownloadButton /> */}
       <div className="logo_container">

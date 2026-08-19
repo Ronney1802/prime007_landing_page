@@ -6,7 +6,7 @@ import { BRAND_NAME } from "../constants";
 
 const Hero = () => {
   return (
-    <>
+    <div style={{ marginBottom: "50px" }}>
       <section className="hero">
         <div className="container hero-wrap">
           {/* Hidden title for SEO */}
@@ -42,7 +42,7 @@ const Hero = () => {
         India's trusted online matka app with starline games, live market
         results and starline records.
       </p>
-    </>
+    </div>
   );
 };
 

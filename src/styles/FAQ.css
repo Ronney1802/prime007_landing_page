@@ -1,6 +1,6 @@
 /* FAQ Section Wrapper */
 .home-faq-wrap {
-  padding: 34px 0 46px !important;
+  padding: 34px 0 130px 0;
 }
 
 /* Left Side (Heading + Download Button) */
@@ -91,12 +91,7 @@
 }
 
 .faq-ico {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: #2ca566;
-  color: #fff;
-  font-size: 0.58rem;
+  font-size: 15px;
   transition: transform 0.3s;
   flex-shrink: 0;
   display: inline-flex;

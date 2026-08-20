@@ -5,11 +5,6 @@
 /* New Prime007 theme root: navy background + gold / metallic accents */
 :root {
   /* Base palette */
-  --prime-navy: #0e3242; /* deep textured navy */
-  --prime-navy-2: #123a4b;
-  --prime-navy-3: #0a2733;
-
-  /* Page / section / card surfaces (dark gradients and overlays) */
   --page-bg-gradient: linear-gradient(
     180deg,
     #06141a 0%,
@@ -36,23 +31,15 @@
   --card-bg-solid: rgba(6, 18, 22, 0.72);
 
   --gold: #d4af37; /* classic gold */
-  --gold-2: #caa63a;
-  --gold-3: #b58f2e;
-  --metal-silver: #9aa1a6;
-  --metal-dark: #6e7376;
 
   /* Keep the app section accent intentionally golden; the rest of the site uses green. */
   --green: #1dbf73;
   --green-brand: #1dbf73;
   --green-strong: #0f8a5d;
   --green-deep: #0c6d4c;
-  --green-light: #8fe0b7;
   --green-soft: rgba(29, 191, 115, 0.08);
   --green-pale: rgba(29, 191, 115, 0.12);
-  --green-card: rgba(18, 38, 29, 0.6);
-  --green-border: rgba(29, 191, 115, 0.16);
   --green-border-soft: rgba(29, 191, 115, 0.1);
-  --green-border-faint: rgba(29, 191, 115, 0.06);
   --green-panel: #214e3f;
   --green-mint: #73c79d;
 
@@ -84,21 +71,17 @@
   /* Shadows tuned for navy/gold theme */
   --shadow-black-16: rgba(0, 0, 0, 0.32);
   --shadow-black-12: rgba(0, 0, 0, 0.22);
-  --shadow-black-5: rgba(0, 0, 0, 0.06);
   --shadow-slate-08: rgba(2, 12, 20, 0.12);
   --shadow-slate-06: rgba(2, 12, 20, 0.08);
   --shadow-slate-12: rgba(2, 12, 20, 0.18);
   --shadow-slate-25: rgba(0, 0, 0, 0.35);
   --shadow-brand-20: rgba(29, 191, 115, 0.14);
-  --shadow-gold-24: rgba(29, 191, 115, 0.24);
 
   --shadow-sm: 0 6px 18px var(--shadow-black-12);
   --shadow-soft-panel: 0 10px 30px var(--shadow-slate-06);
-  --shadow-card: 0 12px 36px var(--shadow-slate-12);
   --shadow-card-lift: 0 16px 44px var(--shadow-slate-12);
   --shadow-float:
     0 10px 34px rgba(0, 0, 0, 0.45), 0 0 18px rgba(29, 191, 115, 0.06);
-  --shadow-gold-glow: 0 8px 28px rgba(29, 191, 115, 0.18);
   --shadow-button-primary:
     0 10px 30px rgba(0, 0, 0, 0.5), 0 0 10px rgba(29, 191, 115, 0.12);
   --shadow-button-primary-hover:
@@ -106,21 +89,11 @@
 
   --white-0: rgba(255, 255, 255, 0);
   --white-02: rgba(255, 255, 255, 0.02);
-  --white-04: rgba(255, 255, 255, 0.04);
-  --white-16: rgba(255, 255, 255, 0.16);
   --white-18: rgba(255, 255, 255, 0.18);
   --white-20: rgba(255, 255, 255, 0.2);
-  --white-32: rgba(255, 255, 255, 0.32);
   --white-38: rgba(255, 255, 255, 0.38);
-  --white-44: rgba(255, 255, 255, 0.44);
   --white-60: rgba(255, 255, 255, 0.6);
-  --white-90a: rgba(255, 255, 255, 0.9);
 
-  --green-border-70: rgba(29, 191, 115, 0.7);
-  --green-highlight-45: rgba(29, 191, 115, 0.45);
-
-  --shadow-slate-16: rgba(2, 12, 20, 0.16);
-  --shadow-slate-18: rgba(2, 12, 20, 0.18);
   --shadow-black-18: rgba(0, 0, 0, 0.18);
   --shadow-footer-inset: rgba(0, 0, 0, 0.18);
 
@@ -130,12 +103,8 @@
 
   --border-light: rgba(255, 255, 255, 0.06);
   --muted-6d: #8b8b8b;
-  --muted-4b: #6b6f73;
-  --muted-6b: #6b6f73;
-  --muted-3d: #3f4649;
   --text-title: #f6efe6;
   --text-subtle: #bdb6aa;
-  --text-900: #0b1113;
   --green-soft-alt: rgba(29, 191, 115, 0.06);
   --phone-line-muted: rgba(255, 255, 255, 0.06);
   --whatsapp-hover: #1ebe57;
@@ -146,11 +115,5 @@
   --rate-grad-3: #031018; /* near-black blue/green */
   --rate-border-rate: rgba(0, 0, 0, 0.6);
   --rate-overlay-light: rgba(255, 255, 255, 0.02);
-  --rate-right-bg: linear-gradient(
-    180deg,
-    rgba(3, 12, 18, 0.92),
-    rgba(2, 10, 16, 0.9)
-  );
-  --rate-ico-border: rgba(255, 255, 255, 0.03);
   --rate-glow: rgba(14, 122, 140, 0.14);
 }

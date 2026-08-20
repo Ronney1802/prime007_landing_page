@@ -1,9 +1,10 @@
 .how-to-play_grid {
   display: flex;
   justify-content: space-between;
-  background-color: var(--white);
+  background: var(--card-bg);
   padding: 20px 60px;
   border-radius: 20px;
+  box-shadow: var(--shadow-soft-panel);
 }
 
 @media (max-width: 480px) {

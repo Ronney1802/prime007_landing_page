@@ -1,15 +1,11 @@
 .app-section {
-  background: linear-gradient(
-    112deg,
-    var(--green-brand) 0%,
-    var(--green-light) 55%,
-    var(--green-brand) 100%
-  );
+  background: var(--section-bg);
   border-radius: 0;
   padding: 72px 48px;
   text-align: center;
   position: relative;
   overflow: hidden;
+  color: var(--text-primary);
 }
 .app-section::before {
   content: "";
@@ -40,7 +36,7 @@
 .app-copy .app-download-title {
   font-size: clamp(1.8rem, 2.7vw, 2.6rem);
   font-weight: 900;
-  color: var(--white);
+  color: var(--text-title);
   margin-bottom: 16px;
   line-height: 1.1;
 }
@@ -48,15 +44,20 @@
   color: var(--yellow-highlight);
 }
 .app-copy p {
-  color: var(--white-90);
+  color: var(--text-mid);
   font-size: 0.95rem;
   max-width: 520px;
   margin: 0 0 28px;
   line-height: 1.65;
 }
 .btn-dl-big {
-  background: linear-gradient(90deg, var(--white-soft) 0%, var(--white) 70%);
-  color: var(--green-brand);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.12) 0%,
+    rgba(255, 255, 255, 0.04) 52%,
+    rgba(212, 175, 55, 0.09) 100%
+  );
+  color: var(--gold-brand);
   font-weight: 800;
   padding: 13px 40px;
   border-radius: 40px;
@@ -83,7 +84,7 @@
   background: linear-gradient(
     110deg,
     var(--white-0),
-    var(--green-highlight-45),
+    rgba(212, 175, 55, 0.5),
     var(--white-0)
   );
 }
@@ -107,7 +108,7 @@
   width: 550px;
   height: 550px;
   border-radius: 50%;
-  border: 1px solid var(--white-20);
+  border: 1px solid var(--gray-100); /* use FAQ background tone */
   right: -110px;
   top: 50%;
   transform: translateY(-50%);
@@ -117,7 +118,7 @@
   content: "";
   position: absolute;
   border-radius: 50%;
-  border: 1px solid var(--white-18);
+  border: 1px solid var(--gray-150);
   inset: 34px;
 }
 .app-ring::after {
@@ -147,11 +148,11 @@
   margin: 0 auto 8px;
 }
 .phone-body {
-  background: var(--green-card);
+  background: var(--card-bg-solid);
   border-radius: 28px;
   min-height: 560px;
   padding: 12px;
-  border: 1px solid var(--green-border);
+  border: 1px solid var(--border-light);
 }
 .phone-toolbar {
   height: 16px;
@@ -178,8 +179,8 @@
 }
 .phone-card {
   border-radius: 12px;
-  background: var(--white);
-  border: 1px solid var(--green-border-faint);
+  background: var(--card-bg);
+  border: 1px solid rgba(255, 255, 255, 0.04);
   margin-top: 10px;
   padding: 10px;
 }
@@ -197,11 +198,11 @@
 }
 
 .review-card {
-  background: var(--white);
-  border: 1px solid var(--gray-100);
+  background: var(--card-bg);
+  border: 1px solid rgba(255, 255, 255, 0.04);
   border-radius: 14px;
   padding: 14px;
-  box-shadow: 0 5px 12px var(--shadow-black-5);
+  box-shadow: 0 5px 12px var(--shadow-slate-06);
 }
 .review-head {
   display: flex;
@@ -287,8 +288,8 @@
     margin: 0 auto;
   }
   .app-ring {
-    width: 580px;
-    height: 580px;
+    width: 500px;
+    height: 500px;
     right: 50%;
     transform: translate(50%, -50%);
   }
@@ -317,8 +318,8 @@
     padding: 10px 14px;
   }
   .app-ring {
-    width: 570px;
-    height: 570px;
+    width: 500px;
+    height: 500px;
   }
   .phone-mock {
     width: 180px;

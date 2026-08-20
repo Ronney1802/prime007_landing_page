@@ -33,8 +33,8 @@
 }
 
 .float-download-btn:hover {
-  background-color: var(--gold-brand);
-  color: var(--green-deep);
+  background-color: var(--green-brand);
+  color: var(--white);
   transform: translateY(-2px) scale(1.05);
 }
 

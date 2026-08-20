@@ -27,7 +27,8 @@ h2.section-title {
 
 .app-root {
   position: relative;
-  background-color: var(--gray-bg);
+  background: var(--page-bg);
+  color: var(--text-mid);
 }
 
 @media (max-width: 480px) {

@@ -1,6 +1,5 @@
 .feature-block {
   margin: 20px 0 20px 0;
-  /* background-color: red; */
 }
 
 .feature-header {
@@ -8,8 +7,9 @@
 }
 
 .feature-row {
-  background: var(--white);
+  background: var(--gray-bg);
+  border: 1px solid var(--border-light);
   border-radius: 14px;
-  padding: 8px 6px;
-  box-shadow: var(--shadow-card);
+  padding: 12px 10px;
+  box-shadow: var(--shadow-soft-panel);
 }

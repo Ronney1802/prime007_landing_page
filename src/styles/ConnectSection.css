@@ -15,7 +15,7 @@
   font-size: clamp(1.7rem, 2.4vw, 2.5rem);
   line-height: 1.04;
   font-weight: 800;
-  color: var(--text-900);
+  color: var(--text-dark);
 }
 
 .connect h2 span {
@@ -27,7 +27,7 @@
   padding-left: 28px;
   font-size: clamp(0.9rem, 1vw, 1.05rem);
   line-height: 1.55;
-  color: var(--muted-4b);
+  color: var(--text-dark);
   font-weight: 400;
 }
 

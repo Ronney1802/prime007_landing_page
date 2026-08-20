@@ -34,7 +34,7 @@ const SVGConnector = () => {
             y2="86.149"
             gradientUnits="userSpaceOnUse"
           >
-            <stop style={{ stopColor: "var(--white)" }} />
+            <stop style={{ stopColor: "var(--white-18)" }} />
             <stop offset="1" style={{ stopColor: "var(--muted-6d)" }} />
           </linearGradient>
           <linearGradient
@@ -46,7 +46,7 @@ const SVGConnector = () => {
             gradientUnits="userSpaceOnUse"
           >
             <stop style={{ stopColor: "var(--muted-6d)" }} />
-            <stop offset="1" style={{ stopColor: "var(--white)" }} />
+            <stop offset="1" style={{ stopColor: "var(--white-18)" }} />
           </linearGradient>
         </defs>
       </svg>

@@ -104,8 +104,8 @@
 }
 .app-ring {
   position: absolute;
-  width: 520px;
-  height: 520px;
+  width: 550px;
+  height: 550px;
   border-radius: 50%;
   border: 1px solid var(--white-20);
   right: -110px;
@@ -287,8 +287,8 @@
     margin: 0 auto;
   }
   .app-ring {
-    width: 390px;
-    height: 390px;
+    width: 580px;
+    height: 580px;
     right: 50%;
     transform: translate(50%, -50%);
   }
@@ -317,8 +317,8 @@
     padding: 10px 14px;
   }
   .app-ring {
-    width: 300px;
-    height: 300px;
+    width: 570px;
+    height: 570px;
   }
   .phone-mock {
     width: 180px;

@@ -17,7 +17,7 @@
   height: 62px;
   margin-top: -32px;
   padding: 0 22px;
-  border: 2px solid rgba(255, 255, 255, 0.6) !important;
+  border: 2px solid var(--white-60) !important;
   border-radius: 999px;
   background: linear-gradient(
     180deg,
@@ -42,12 +42,7 @@
   left: -40%;
   width: 35%;
   height: 100%;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(255, 255, 255, 0.38),
-    transparent
-  );
+  background: linear-gradient(90deg, transparent, var(--white-38), transparent);
   transform: skewX(-18deg);
   animation: downloadShine 3.2s ease-in-out infinite;
   pointer-events: none;
@@ -88,7 +83,7 @@
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.88);
+  color: var(--white-90);
 }
 
 .download-btn-title {

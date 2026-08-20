@@ -1,6 +1,6 @@
 import "../styles/AppSection.css";
 import { BRAND_NAME } from "../constants";
-import appImage from "../assets/images/mobile-screen.png";
+import appImage from "../assets/images/app-screen.png";
 
 const AppSection = () => {
   return (

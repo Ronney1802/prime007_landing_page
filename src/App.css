@@ -5,7 +5,7 @@ section {
   font-size: 1.6rem;
   font-weight: 800;
   text-align: center;
-  color: #152321;
+  color: var(--text-title);
   margin-bottom: 4px;
 }
 h2.section-title {
@@ -20,7 +20,7 @@ h2.section-title {
 }
 .section-sub {
   text-align: center;
-  color: #7b858f;
+  color: var(--text-subtle);
   font-size: 0.9rem;
   margin-bottom: 20px;
 }

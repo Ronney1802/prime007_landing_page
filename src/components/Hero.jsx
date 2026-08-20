@@ -1,6 +1,6 @@
 import "../styles/Hero.css";
-import prime007BannerImg from "../assets/images/prime007-banner.png";
-import girlImg from "../assets/images/hero-girl(1).png";
+import prime007PosterImg from "../assets/images/prime007-poster-green.png";
+import girlImg from "../assets/images/hero-girl.png";
 import DownloadButton from "./DownloadButton";
 import { BRAND_NAME } from "../constants";
 
@@ -18,7 +18,7 @@ const Hero = () => {
             <div className="col-lg-6">
               <div className="hero-copy-wrap">
                 <img
-                  src={prime007BannerImg}
+                  src={prime007PosterImg}
                   className="hero-copy"
                   alt={`${BRAND_NAME} play big win big banner`}
                 />

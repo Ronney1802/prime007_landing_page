@@ -23,7 +23,7 @@ const SVGConnector = () => {
           width="9.7265"
           height="9.7265"
           rx="4.86325"
-          fill="#28A66B"
+          style={{ fill: "var(--green-brand)" }}
         />
         <defs>
           <linearGradient
@@ -34,8 +34,8 @@ const SVGConnector = () => {
             y2="86.149"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stopColor="white" />
-            <stop offset="1" stopColor="#797979" />
+            <stop style={{ stopColor: "var(--white)" }} />
+            <stop offset="1" style={{ stopColor: "var(--muted-6d)" }} />
           </linearGradient>
           <linearGradient
             id="paint1_linear"
@@ -45,8 +45,8 @@ const SVGConnector = () => {
             y2="194.53"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stopColor="#797979" />
-            <stop offset="1" stopColor="white" />
+            <stop style={{ stopColor: "var(--muted-6d)" }} />
+            <stop offset="1" style={{ stopColor: "var(--white)" }} />
           </linearGradient>
         </defs>
       </svg>

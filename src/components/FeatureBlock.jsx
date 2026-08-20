@@ -1,9 +1,9 @@
 import "../styles/FeatureBlock.css";
 import FeatureCard from "./FeatureCard";
-import premiumServiceIcon from "../assets/images/premium-service.png";
-import fastWithdrawalIcon from "../assets/images/fast-withdrawal.png";
-import secureIcon from "../assets/images/secure.png";
-import supportIcon from "../assets/images/support.png";
+import premiumServiceIcon from "../assets/images/premium-service-green.png";
+import fastWithdrawalIcon from "../assets/images/fast-withdrawal-green.png";
+import secureIcon from "../assets/images/secure-green.png";
+import supportIcon from "../assets/images/support-green.png";
 import SVGConnector from "./SVGConnector";
 import { BRAND_NAME } from "../constants";
 

@@ -2,14 +2,14 @@ import "../styles/GameRates.css";
 import RateCard from "./RateCard";
 
 const rates = [
-  { icon: "fas fa-bolt", name: "Single Digit", ka: "1 KA", amt: "9.5" },
-  { icon: "fas fa-star", name: "Jodi Digits", ka: "1 KA", amt: "95" },
-  { icon: "fas fa-gem", name: "Single Pana", ka: "1 KA", amt: "150" },
-  { icon: "fas fa-crown", name: "Double Pana", ka: "1 KA", amt: "300" },
-  { icon: "fas fa-trophy", name: "Triple Pana", ka: "1 KA", amt: "900" },
-  { icon: "fas fa-sun", name: "Half Sangam A", ka: "1 KA", amt: "1000" },
-  { icon: "fas fa-sun", name: "Half Sangam B", ka: "1 KA", amt: "1000" },
-  { icon: "fas fa-dice", name: "Full Sangam", ka: "1 KA", amt: "10000" },
+  { icon: "fas fa-dice", name: "Single Digit", ka: "₹10 KA", amt: "₹95" },
+  { icon: "fas fa-star", name: "Jodi Digits", ka: "₹10 KA", amt: "₹950" },
+  { icon: "fas fa-trophy", name: "Single Pana", ka: "₹10 KA", amt: "₹1500" },
+  { icon: "fas fa-diamond", name: "Double Pana", ka: "₹10 KA", amt: "₹3000" },
+  { icon: "fas fa-crown", name: "Triple Pana", ka: "₹10 KA", amt: "₹6000" },
+  { icon: "fas fa-gem", name: "Half Sangam A", ka: "₹10 KA", amt: "₹12000" },
+  { icon: "fas fa-bolt", name: "Half Sangam B", ka: "₹10 KA", amt: "₹12000" },
+  { icon: "fas fa-sun", name: "Full Sangam", ka: "₹10 KA", amt: "₹120000" },
 ];
 
 const GameRates = () => {

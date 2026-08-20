@@ -82,9 +82,9 @@
   height: 100%;
   background: linear-gradient(
     110deg,
-    rgba(255, 255, 255, 0),
-    rgba(54, 190, 125, 0.45),
-    rgba(255, 255, 255, 0)
+    var(--white-0),
+    var(--green-highlight-45),
+    var(--white-0)
   );
 }
 .btn-dl-big:hover {
@@ -107,7 +107,7 @@
   width: 520px;
   height: 520px;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid var(--white-20);
   right: -110px;
   top: 50%;
   transform: translateY(-50%);
@@ -117,7 +117,7 @@
   content: "";
   position: absolute;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid var(--white-18);
   inset: 34px;
 }
 .app-ring::after {
@@ -192,7 +192,7 @@
 .phone-line.short {
   width: 60%;
   height: 7px;
-  background: #c8d5ce;
+  background: var(--phone-line-muted);
   margin-bottom: 0;
 }
 

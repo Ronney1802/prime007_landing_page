@@ -1,7 +1,7 @@
 .how-to-play_grid {
   display: flex;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: var(--white);
   padding: 20px 60px;
   border-radius: 20px;
 }

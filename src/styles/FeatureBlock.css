@@ -8,7 +8,7 @@
 }
 
 .feature-row {
-  background: #fff;
+  background: var(--white);
   border-radius: 14px;
   padding: 8px 6px;
   box-shadow: var(--shadow-card);

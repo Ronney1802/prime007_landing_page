@@ -23,7 +23,7 @@ const ConnectSection = () => {
             <ConnectButton
               href="tel:put-your-number"
               label="Call Now"
-              icon="fas fa-phone-alt"
+              icon="fas fa-phone"
               bgColor="var(--green-brand)"
               borderColor="var(--green-deep)"
               textColor="var(--white)"

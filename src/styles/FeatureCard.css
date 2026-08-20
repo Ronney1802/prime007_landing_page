@@ -14,7 +14,7 @@
 .feature-sub {
   font-size: 12px;
   font-weight: 400;
-  color: #6d6d6d;
+  color: var(--muted-6d);
 }
 
 @media (max-width: 768px) {

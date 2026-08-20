@@ -31,6 +31,7 @@
   --card-bg-solid: rgba(6, 18, 22, 0.72);
 
   --gold: #d4af37; /* classic gold */
+  --muted-gold: #c79f42;
 
   /* Keep the app section accent intentionally golden; the rest of the site uses green. */
   --green: #1dbf73;

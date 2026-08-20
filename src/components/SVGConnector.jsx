@@ -1,4 +1,4 @@
-const SVGConnector = () => {
+const SVGConnector = ({ dotColor }) => {
   return (
     <div className="d-none d-md-flex col-md-auto justify-content-center align-items-center">
       <svg
@@ -23,7 +23,7 @@ const SVGConnector = () => {
           width="9.7265"
           height="9.7265"
           rx="4.86325"
-          style={{ fill: "var(--green-brand)" }}
+          style={{ fill: dotColor }}
         />
         <defs>
           <linearGradient

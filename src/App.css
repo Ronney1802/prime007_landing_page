@@ -14,7 +14,7 @@ h2.section-title {
 .green-line {
   width: 64px;
   height: 3px;
-  background: var(--green);
+  background: var(--gold);
   border-radius: 2px;
   margin: 8px auto 14px;
 }

@@ -17,13 +17,13 @@ const HowToPlay = () => {
             step="Download App"
             description="Download our premium app from the website"
           />
-          <SVGConnector />
+          <SVGConnector dotColor={"var(--gold)"} />
           <HowToPlayCard
             icon="fas fa-user-plus"
             step="Create Account"
             description="Register with your details securely"
           />
-          <SVGConnector />
+          <SVGConnector dotColor={"var(--gold)"} />
           <HowToPlayCard
             icon="fas fa-play-circle"
             step="Start Playing"

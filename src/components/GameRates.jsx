@@ -10,13 +10,17 @@ const rates = [
   { icon: "fas fa-bolt", name: "Half Sangam A", ka: "₹10 KA", amt: "₹12000" },
   { icon: "fas fa-bolt", name: "Half Sangam B", ka: "₹10 KA", amt: "₹12000" },
   { icon: "fas fa-gem", name: "Full Sangam", ka: "₹10 KA", amt: "₹120000" },
+  { icon: "fas fa-sun", name: "JACKPOT", ka: "₹10 KA", amt: "₹1000" },
   {
     icon: "fas fa-sun",
     name: "STARLINE",
-    ka: "₹10 KA",
-    amt: "₹100",
+    rateList: [
+      { name: "Single Ank", ka: "₹10 KA", amt: "₹100" },
+      { name: "Single Pana", ka: "₹10 KA", amt: "₹1600" },
+      { name: "Double Pana", ka: "₹10 KA", amt: "₹3200" },
+      { name: "Triple Pana", ka: "₹10 KA", amt: "₹6000" },
+    ],
   },
-  { icon: "fas fa-sun", name: "JACKPOT", ka: "₹10 KA", amt: "₹1000" },
 ];
 
 const GameRates = () => {
@@ -35,6 +39,8 @@ const GameRates = () => {
               name={rate.name}
               ka={rate.ka}
               amt={rate.amt}
+              rateList={rate.rateList}
+              isFullWidth={rate.name === "STARLINE"}
             />
           ))}
         </div>

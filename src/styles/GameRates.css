@@ -26,6 +26,125 @@
   overflow: hidden;
 }
 
+.rate-card.full-width {
+  grid-column: 1 / -1;
+}
+
+.starline-card {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  padding: 16px 18px 16px 18px;
+  margin-top: 50px;
+  border-radius: 22px;
+  background: var(--card-bg);
+  border: 1px solid rgba(255, 210, 77, 0.18);
+  box-shadow: var(--shadow-soft-panel);
+}
+
+.starline-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.starline-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.starline-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0 0 auto;
+  padding: 5px;
+  text-align: center;
+}
+
+.starline-box-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 10px;
+  flex: 1 1 auto;
+  width: 100%;
+  min-width: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.starline-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 12px 10px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 210, 77, 0.18);
+  background: var(--card-bg);
+}
+
+.starline-box-left {
+  flex: 1;
+  min-width: 0;
+}
+
+.starline-box-name {
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.starline-box-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-width: 128px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 210, 77, 0.24);
+  background: var(--card-bg);
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.38);
+}
+
+.starline-box-ka {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.84);
+  white-space: nowrap;
+}
+
+.starline-box-amt {
+  font-size: 0.98rem;
+  font-weight: 900;
+  color: var(--text-primary);
+  white-space: nowrap;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
+}
+
+.jackpot-card {
+  border-radius: 22px;
+  background: var(--card-bg);
+  box-shadow: var(--shadow-soft-panel);
+  border: 1px solid rgba(255, 210, 77, 0.18);
+}
+
+.jackpot-card .rate-right {
+  border: 1px solid rgba(255, 210, 77, 0.18);
+}
+
 .rate-card::before {
   content: "";
   position: absolute;
@@ -43,10 +162,6 @@
 
 .rate-card:hover {
   transform: translateY(-4px);
-  /* add a soft colored glow on hover */
-  box-shadow:
-    0 18px 44px var(--rate-glow),
-    inset 0 1px 0 var(--shadow-white-40);
 }
 
 .rate-left {
@@ -91,6 +206,14 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
+}
+
+.starline-card .rate-name {
+  font-size: 25px;
+}
+
+.starline-card .market-type {
+  font-size: 15px;
 }
 
 .market-type {
@@ -190,5 +313,21 @@
     color: var(--text-primary);
     white-space: nowrap;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
+  }
+}
+
+/* Tablet screens: 2 boxes per row */
+@media (max-width: 1250px) {
+  .starline-box-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 26px;
+    /* grid-template-columns: 1fr; */
+  }
+}
+
+/* Mobile screens: 1 box per row */
+@media (max-width: 768px) {
+  .starline-box-grid {
+    grid-template-columns: 1fr;
   }
 }

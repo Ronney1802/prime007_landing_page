@@ -21,7 +21,7 @@ const ConnectSection = () => {
 
           <div className="connect-cta-row">
             <ConnectButton
-              href="tel:9131393933"
+              href="tel:put-your-number"
               label="Call Now"
               icon="fas fa-phone"
               bgColor="var(--green-strong)"
@@ -32,7 +32,7 @@ const ConnectSection = () => {
             />
 
             <ConnectButton
-              href="https://wa.me/9131393933"
+              href="https://wa.me/put-your-number"
               label="Whatsapp"
               icon="fab fa-whatsapp"
               bgColor="var(--white-off)"
